@@ -4,3 +4,22 @@
     border:0;
 
 }
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+img{
+    object-fit: cover;
+    padding: 1.6rem;
+}
