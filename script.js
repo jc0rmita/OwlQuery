@@ -1,1 +1,4 @@
-alert ("Hello World!")
+function print() {
+    alert ("Hello World!");
+}
+print();
